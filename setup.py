@@ -39,7 +39,7 @@ setup(name="KexiftoolManager",
           "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
           "Programming Language :: Python :: 3",
           "Topic :: Multimedia"],
-      packages=["kexiftoolmanager", ],
+      packages=["kexiftoolmanager", "kexiftoolmanager/kernels", ],
       python_requires='>=3.9',
       install_requires=['kjmarotools @ git+https://github.com/fjmaro/KjmaroTools@main', ]
       )
